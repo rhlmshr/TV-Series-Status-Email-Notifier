@@ -12,9 +12,9 @@ This project demonstrates on finding the release date and status of any TV serie
 ## Configuration
 Put your Email credentials in the script before getting started:
 ```
-  #Put your credentials here:
-    user = 'abc@xyz.com'
-    password = 'abcd@1234'
+#Put your credentials here:
+  user = 'abc@xyz.com'
+  password = 'abcd@1234'
 ```
 This will be the account which will be used by SMTP for sending TV Series Status Mails to the provided Email in the console on runtime.
 
