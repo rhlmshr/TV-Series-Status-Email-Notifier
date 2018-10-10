@@ -66,7 +66,7 @@ def findStatus() :
                     else:
                         show_status = 'The show is running but airing date is not determined'
 
-                    mail_body += '\nTv series name: ' + response['name'] + '\nStatus: ' + show_status + ' \n';
+                mail_body += '\nTv series name: ' + response['name'] + '\nStatus: ' + show_status + ' \n';
 
             sp.text = 'Data Fetched'
             sp.color = 'green'
@@ -88,8 +88,8 @@ def sendmail(mail_body):
     with yaspin(text="Sending Mail", color="cyan") as sp:
 
         #Put your credentials here:
-        user = 'abc@xyz.com'
-        password = 'abcd@1234'
+        user = 'rhlmshr8@gmail.com'
+        password = 'mishra@96'
 
         try:
             s = smtplib.SMTP('smtp.gmail.com', 587)
@@ -117,7 +117,7 @@ while True :
     if(match == None):
         print("Invalid input. Try Again.\n")
     else:
-        break
+    break
 
 while True :
     tv_series = input("TV Series: ")
@@ -127,7 +127,6 @@ while True :
         print("Invalid input. Try Again.\n")
     else:
         break
-
 
 addToDB()
 findStatus()
