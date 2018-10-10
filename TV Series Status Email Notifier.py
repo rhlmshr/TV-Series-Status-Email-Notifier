@@ -88,8 +88,8 @@ def sendmail(mail_body):
     with yaspin(text="Sending Mail", color="cyan") as sp:
 
         #Put your credentials here:
-        user = 'rhlmshr8@gmail.com'
-        password = 'mishra@96'
+        user = 'abc@xyz.in'
+        password = 'abcd@1234'
 
         try:
             s = smtplib.SMTP('smtp.gmail.com', 587)
@@ -117,7 +117,7 @@ while True :
     if(match == None):
         print("Invalid input. Try Again.\n")
     else:
-    break
+        break
 
 while True :
     tv_series = input("TV Series: ")
