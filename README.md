@@ -25,15 +25,21 @@ Put your email address where you want the status info and give the list of names
 Sample input:
 ```
 Email Address: 'abc@xyz.in'
-TV Series: friends, suits, gotham
+TV Series: friends, gotham, big bang theory, game of thrones
 ```
 Mail Format:
 ```
-Tv series name: Suits
-Status: The show is running but airing date is not determined
+Tv series name: Friends
+Status: The show has finished streaming all its episodes. 
 
 Tv series name: Gotham
-Status: The next episode airs on 2019-03-15
+Status: The next episode airs on 2019-03-15 
+
+Tv series name: The Big Bang Theory
+Status: The next episode airs on 2018-10-18 
+
+Tv series name: Game of Thrones
+Status: The show is running but airing date is not determined
 ```
 ### Video Demo
 You can also watch the live demo [here](https://youtu.be/Umf1EAWUsZA).
